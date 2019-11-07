@@ -1,0 +1,82 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.ptb</groupId>
+		<artifactId>protek</artifactId>
+		<version>1.0</version>
+	</parent>
+	<artifactId>ptb-web</artifactId>
+	<packaging>war</packaging>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-tomcat</artifactId>
+			<scope>provided</scope>
+		</dependency>
+		<!-- <dependency>
+			<groupId>com.ptb</groupId>
+			<artifactId>ptb-bank-master</artifactId>
+			<version>1.0</version>
+		</dependency> -->
+		
+		<dependency>
+			<groupId>com.ptb</groupId>
+			<artifactId>ptb-security</artifactId>
+			<version>1.0</version>
+		</dependency>
+		<dependency>
+			<groupId>com.ptb</groupId>
+			<artifactId>ptb-account</artifactId>
+			<version>1.0</version>
+		</dependency>
+				<dependency>
+			<groupId>com.ptb</groupId>
+			<artifactId>ptb-customer</artifactId>
+			<version>1.0</version>
+		</dependency>
+		<dependency>
+			<groupId>com.ptb</groupId>
+			<artifactId>ptb-common-config</artifactId>
+			<version>1.0</version>
+		</dependency>
+				<dependency>
+			<groupId>com.ptb</groupId>
+			<artifactId>ptb-bank-master</artifactId>
+			<version>1.0</version>
+		</dependency>
+		<dependency>
+			<groupId>com.ptb</groupId>
+			<artifactId>ptb-employee-master</artifactId>
+			<version>1.0</version>
+		</dependency>
+				<dependency>
+			<groupId>com.ptb</groupId>
+			<artifactId>ptb-lookup-mater</artifactId>
+			<version>1.0</version>
+		</dependency>
+		<dependency>
+			<groupId>com.ptb</groupId>
+			<artifactId>ptb-gl-code-master</artifactId>
+			<version>1.0</version>
+		</dependency>
+		<dependency>
+			<groupId>com.ptb</groupId>
+			<artifactId>ptb-bank-transactions</artifactId>
+			<version>1.0</version>
+		</dependency>
+				<dependency>
+			<groupId>com.ptb</groupId>
+			<artifactId>ptb-loans</artifactId>
+			<version>1.0</version>
+		</dependency>
+		<dependency>
+			<groupId>com.ptb</groupId>
+			<artifactId>ptb-investments</artifactId>
+			<version>1.0</version>
+		</dependency>		
+	</dependencies>
+
+</project>
